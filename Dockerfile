@@ -1,4 +1,4 @@
-FROM python:3.11-bookworm
+FROM arm64v8/python:3.11-bookworm
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
